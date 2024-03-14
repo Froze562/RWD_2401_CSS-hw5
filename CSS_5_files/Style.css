@@ -1,0 +1,104 @@
+/* <==== Common CSS ====> */
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    transition: .9s;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* <==== Common CSS ====> */
+
+/* <==== Main CSS ====> */
+.nav{
+    background-color: #02918b;
+}
+.full{
+    width: 1170px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #02918b;
+}
+
+/* <==== Head ====> */
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.padd{
+    padding: 10px 25px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+/* <==== Head ====> */
+
+/* <==== body ====> */
+#banner{
+    background: url(./Img_2.png) no-repeat center;
+    background-size: cover;
+    height: 728px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+}
+.container{
+    margin: auto;
+}
+.text h3{
+    width: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+.text h1{
+    width: 800;
+    font-size: 70px;
+    letter-spacing: 20px;
+    line-height: 70px;
+}
+.text p{
+    width: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+#banner img{
+    padding: 60px 20px;
+}
+#banner a{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 60px;
+    color: black;
+    padding: 15px 20px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #cfc91d;
+}
+/* <==== body ====> */
+/* <==== Main CSS ====> */
+
+/* <==== CSS Animation ====> */
+.menu a:hover{
+    background-color: yellow;
+    color: blue;
+    border-radius: 20px;
+}
+#banner a:hover{
+    color: blue;
+}
+/* <==== CSS Animation ====> */
